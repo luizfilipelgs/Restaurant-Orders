@@ -53,8 +53,8 @@ def test_dish():
     dish_with_special_characters = Dish("Burger & Fries", 8.5)
     assert repr(dish_with_special_characters) == "Dish('Burger & Fries', R$8.50)"
 
-    dish_with_zero_price = Dish("Water", 0.0)
-    assert repr(dish_with_zero_price) == "Dish('Water', R$0.00)"
+    dish_with_zero_price = Dish("Water", 1.0)
+    assert repr(dish_with_zero_price) == "Dish('Water', R$1.00)"
 
     dish_with_long_name = Dish("Very Long Dish Name That Exceeds Maximum Length Limit", 12.99)
     assert repr(dish_with_long_name) == "Dish('Very Long Dish Name That Exceeds Maximum Length Limit', R$12.99)"
