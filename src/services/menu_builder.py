@@ -1,5 +1,4 @@
 import pandas as pd
-
 from services.inventory_control import InventoryMapping
 from services.menu_data import MenuData
 
@@ -26,4 +25,14 @@ class MenuBuilder:
 
     # Req 4
     def get_main_menu(self, restriction=None) -> pd.DataFrame:
-        pass
+        menu = []
+        for dish in self.menu_data.dishes:
+            if (restriction not in dish.get_restrictions()) or self.inventory.check_recipe_availability(dish.recipe):
+                dish_info = {
+                    "dish_name": dish.name,
+                    "price": dish.price,
+                    "restrictions": dish.get_restrictions(),
+                    "ingredients": dish.get_ingredients(),
+                }
+                menu.append(dish_info)
+        return pd.DataFrame(menu)
