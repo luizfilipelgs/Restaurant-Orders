@@ -1,13 +1,19 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Boas vindas !
+ # O que foi desenvolvido  👨‍💻 
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Esta ferramenta foi desenvolvida para o Restaurante Chapa Quente, com o objetivo de facilitar a criação de cardápios levando em consideração restrições alimentares e disponibilidade de ingredientes em estoque.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Funcionalidades
+
+- Geração automática de cardápios personalizados, considerando as preferências dos clientes e restrições alimentares.
+- Gerenciamento eficiente de receitas e estoque de ingredientes.
+- Consulta rápida para verificar disponibilidade de pratos e ingredientes.
+- Adição, atualização e exclusão de pratos, receitas e ingredientes.
+- Relatórios detalhados sobre o estoque de ingredientes para um controle preciso.
+
+## Habilidades Exercitadas
+
+- Prática do conceito de Hashmaps utilizando as estruturas de dados Dict e Set do Python.
+- Utilização da ferramenta Pandas e sua estrutura de dados DataFrame.
+- Testes de software para garantir a qualidade do código.
+- Aplicação de conceitos de orientação a objetos.
